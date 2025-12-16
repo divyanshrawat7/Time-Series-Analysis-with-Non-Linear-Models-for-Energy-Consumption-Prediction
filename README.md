@@ -5,6 +5,7 @@ Predicting India's hourly electrical load using non-linear ML models
 This project focuses on developing and comparing different forecasting models to predict hourly electricity demand in India.
 The aim is to analyze how various non-linear and deep learning models behave on time-dependent energy data.
 
+
 🚀 Features
 
 End-to-end time series pipeline
@@ -14,6 +15,7 @@ Multiple models trained and compared
 Feature engineering, visualization, and error analysis
 
 GPU-accelerated training (tested on Colab T4)
+
 
 🧠 Models Used
 
@@ -34,6 +36,7 @@ Time_series_analysis_for_Energy_Forecasting_Final.ipynb
 
 hourlyLoadDataIndia.xlsx
 → Dataset used for training the models.
+
 
 📦 Requirements
 
@@ -67,6 +70,7 @@ Forecast plots
 Error metrics (RMSE, MAPE, R²)
 
 Model comparison results
+
 
 📈 Outputs
 
