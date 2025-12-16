@@ -41,8 +41,9 @@ Python 3.8+
 
 Install dependencies using:
 
+```bash
 pip install pandas numpy scikit-learn xgboost statsmodels matplotlib seaborn tensorflow keras-tuner
-
+```
 🛠️ How to Run
 1. Download Dataset
 
