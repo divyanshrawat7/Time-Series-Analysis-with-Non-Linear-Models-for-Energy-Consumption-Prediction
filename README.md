@@ -1,2 +1,78 @@
-# Time-Series-Analysis-with-Non-Linear-Models-for-Energy-Consumption-Prediction
-This project examines the effectiveness of advanced non-linear models (XGBoost and LSTM) in forecasting India's national hourly electricity demand. A high-performance Linear Regression model is used as a benchmark to evaluate the non-linear models' ability to capture complex patterns beyond robust feature engineering.
+📊 Time Series Energy Consumption Forecasting
+
+Predicting India's hourly electrical load using non-linear ML models
+
+This project focuses on developing and comparing different forecasting models to predict hourly electricity demand in India.
+The aim is to analyze how various non-linear and deep learning models behave on time-dependent energy data.
+
+🚀 Features
+
+End-to-end time series pipeline
+
+Multiple models trained and compared
+
+Feature engineering, visualization, and error analysis
+
+GPU-accelerated training (tested on Colab T4)
+
+🧠 Models Used
+
+LSTM Model (Deep Learning)
+
+XGBoost Model
+
+Random Forest Model
+
+Linear Regression Model
+
+Each model is trained, evaluated, and compared to identify the best performer for forecasting.
+
+📁 Repository Structure
+
+Time_series_analysis_for_Energy_Forecasting_Final.ipynb
+→ Notebook containing preprocessing, model training, and evaluation.
+
+hourlyLoadDataIndia.xlsx
+→ Dataset used for training the models.
+
+📦 Requirements
+
+Python 3.8+
+
+Install dependencies using:
+
+pip install pandas numpy scikit-learn xgboost statsmodels matplotlib seaborn tensorflow keras-tuner
+
+🛠️ How to Run
+1. Download Dataset
+
+Download the dataset from Kaggle:
+https://www.kaggle.com/datasets/shubhamvashisht/hourly-load-india-electrical-load-forecasting
+
+2. Setup Environment
+
+Upload the notebook and dataset to Google Colab
+
+Select GPU (T4) under:
+Runtime → Change runtime type → GPU
+
+3. Train the Models
+
+Run the notebook sequentially.
+Each model will train and generate:
+
+Forecast plots
+
+Error metrics (RMSE, MAPE, R²)
+
+Model comparison results
+
+📈 Outputs
+
+You will get:
+
+Visual comparison of all forecasting models
+
+Performance evaluation metrics
+
+Insights on which model performs best for energy load forecasting
